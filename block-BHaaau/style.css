@@ -1,0 +1,119 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+body{
+    line-height: 1.5;
+}
+.heading{
+    font-size: 65px;
+    text-align: center;
+    padding: 40px 180px;
+   
+}
+hr{
+    width: 400px;
+    border: 1px dotted gray;
+    margin: 20px auto;
+}
+h2{
+    font-size: 35px;
+    text-align: center;
+    margin: 20px 0;
+}
+.box{
+    height: 150px;
+    width: 150px;
+    background-color: #DAFAD4;
+    margin: 0 auto;
+   
+   border: 10px solid #ADD8E6;
+   outline: 10px solid black;
+   box-shadow: 0 0 0 20px #ED7F80;
+    
+}
+.circle{
+    height: 15px;
+    width:15px ;
+    border-radius: 20px;
+    background-color: #DAFAD4;
+    display: inline-block;
+    margin-right: 10px;
+}
+.seconddiv{
+    text-align: center;
+    margin: 35px 0;
+}
+.Padding{
+    background-color:#ADD8E6 ;
+}
+.Border{
+    background-color: black;
+}
+.Margin{
+    background-color:#ED7F80 ;
+}
+p{
+    text-align: center;
+    font-size: 20px;
+}
+.parent{
+    width: 600px;
+    border: 1px solid gray;
+    margin: 25px auto;
+    font-size: 0;
+}
+.child{
+    height: 100px;
+    width: 180px;
+    margin: 10px;
+    background-color: #CCCCCC;
+    display: inline-block;
+    
+}
+.border1{
+    border: 1px solid gray;
+}
+.boxsizing{
+    box-sizing: border-box;
+}
+
