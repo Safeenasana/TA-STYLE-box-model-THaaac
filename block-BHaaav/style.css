@@ -11,97 +11,116 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
-	display: block;
+    display: block;
 }
 body {
-	line-height: 1;
-    padding: 0;
+    line-height: 1;
 }
 ol, ul {
-	list-style: none;
+    list-style: none;
 }
 blockquote, q {
-	quotes: none;
+    quotes: none;
 }
 blockquote:before, blockquote:after,
 q:before, q:after {
-	content: '';
-	content: none;
+    content: '';
+    content: none;
 }
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
-h2{
+body{
+    line-height: 1.5;
     color: white;
-    padding: 20px 0;
-    font-size: 25px;
-    
-}
-a{
-    color: white;
-    text-decoration: none;
-    font-size: 15px;
-    padding-right:  20px;
-    
-}
-.child1{
-    text-align: center;
-}
-.firstbox{
-    background-color: #2E3141;
-    
-    height: 400px;
-    width: 900px;
-    margin: 0 40px ;
-}
-.child2{
-    color: white;
-    margin: 80px 70px;
-    font-size: 23px;
 }
 hr{
-    border:1px solid #525461;
-}
-p{
-    color: #93959D;
-    font-size: 15px;
-    margin: 40px 0;
-}
-.seconddiv{
-    background-color: #4C5C96;
-    padding: 20px 60px;
-    box-sizing: border-box;
-    
+    border-color: #8D8E97;
+    margin: 30px auto;
     
 }
-img{
-   border-radius: 50%;
-   height: 100px;
-   width: 100px;
+.header{
+    text-align: center;
+    color: white;
+    background-color: #2D3040;
+    padding: 10px;
+}
+h1{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.header a{
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+    
+    margin: 0 15px;
+}
+.heading{
+    background-color: #2D3040;
+    padding: 90px 0;
+
+
+}
+.wrapper{
+    
+    width: 800px;
+    margin: 0 auto;
+}
+.heading1{
+    font-size: 30px;
+    text-transform: capitalize;
 }
 .para{
-    color: white;
+    font-size: 15px;
+
 }
-.third{
-    background-color: #45558D;
+img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+.section2{
+    background-color: #4C5C96;
+    padding: 60px 0;
+
+}
+h3{
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 20px 0;
+}
+
+.line{
+    border-color: #6B76A7;
+}
+   
+.link{
+    color: white;
+    text-decoration: none;
+   
+}
+.para2{
+    margin-bottom: 10px;
+}
+.section3{
+    background-color: #4C5C96;
+}
+.section4{
+    background-color: #3F4E85;
 }
 .footer{
-    height: 100px;
-    width: 900px;
     background-color: black;
-    margin-left: 40px;
-    color: #93959D;
-    padding: 40px;
-    box-sizing: border-box;
+    padding: 20px 0;
 }
